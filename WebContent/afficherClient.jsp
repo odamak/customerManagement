@@ -10,6 +10,6 @@
         <%-- Affichage de la chaîne "message" transmise par la servlet --%>
         <p class="info">${ message }</p>
         <%-- Puis affichage des données enregistrées dans le bean "client" transmis par la servlet --%>
-        <p>Nom : ${ client.nomClient }</p>
+        <p>Nom : ${ client.nom }</p>
     </body>
 </html>
